@@ -37,7 +37,7 @@ Syntax:
 assertTrue($condition, string $message = '')
 ```
 - Parameter `$condition` = sebuah ekspresi atau nilai boolean yang diharapkan bernilai true
-- Parameter `$message` = Pesan error jika assertion gagal
+- Parameter `$message` = pesan error jika assertion gagal
 
 ### AssertFalse
 Fungsi bawaan di PHPUnit dan digunakan untuk menyatakan nilai kondisional benar atau salah. Pernyataan ini akan menghasilkan nilai benar jika nilai kondisinya benar, jika tidak, akan menghasilkan nilai salah.
@@ -49,7 +49,7 @@ Syntax:
 assertFalse($condition, string $message = '')
 ```
 - Parameter `$condition` = sebuah ekspresi atau nilai boolean yang diharapkan bernilai false
-- Parameter `$message` = Pesan error jika assertion gagal
+- Parameter `$message` = pesan error jika assertion gagal
 
 ### AssertSame
 Digunakan untuk menegaskan apakah nilai sebenarnya yang diperoleh sama dengan nilai yang diharapkan atau tidak. Pernyataan ini akan menghasilkan nilai benar jika nilai yang diharapkan sama dengan nilai sebenarnya, jika tidak maka akan menghasilkan nilai salah. Jika benar, kasus uji yang ditegaskan akan lulus, jika tidak, kasus uji akan gagal.
